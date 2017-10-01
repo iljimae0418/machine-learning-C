@@ -1,3 +1,4 @@
+// Q(s_t,a_t) = Q(s_t,a_t) + alpha*(r + gamma*max(Q(s_{t+1},a_{t+1})) - Q(s_t,a_t))
 #include <cstdio> 
 #include <cstdlib>
 #include <algorithm> 
